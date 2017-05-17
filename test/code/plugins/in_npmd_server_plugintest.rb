@@ -17,6 +17,7 @@ class NPMDServerTest < Test::Unit::TestCase
 
     TMP_DIR = "tmp_npmd_test"
     FAKE_ADMIN_CONF_LOCATION = "#{TMP_DIR}/omsadmin.conf"
+    # TODO will work with Chaitainya to resolve this
     FAKE_ADMIN_CONF_FILE_DATA = 'AGENT_GUID=abcde_test_guid'
     FAKE_BINARY_BASENAME = "fake_npmd_binary.rb"
     FAKE_BINARY_FILENAME = File.dirname(__FILE__) + "/#{FAKE_BINARY_BASENAME}"
